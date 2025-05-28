@@ -1,4 +1,4 @@
-## 🧠 What are **Switch Expressions**?
+## What are **Switch Expressions**?
 
 In older versions of Java, `switch` was only a **statement** — meaning it didn’t return a value. But starting from **Java 14 (officially)**, `switch` now supports **expressions**, which means it can **return a value** directly, just like `if` or `?:`.
 
@@ -38,22 +38,22 @@ String result = switch (day) {
 };
 ```
 
-> ✅ The result is stored directly into a variable, no need for `break`.
+>  The result is stored directly into a variable, no need for `break`.
 
 ---
 
 ## New Benefits of Switch Expressions
 
-| Feature               | Explanation                                        |
-| --------------------- | -------------------------------------------------- |
-| ✅ Shorter Syntax      | Uses `->` instead of `:` and doesn't need `break`. |
-| ✅ Returns a Value     | You can assign the result directly to a variable.  |
-| ✅ Supports More Types | Like `enum`, `String`, etc.                        |
-| ✅ Supports `yield`    | Use `yield` to return a value inside code blocks.  |
+| Feature          | Explanation                                        |
+| ---------------- | -------------------------------------------------- |
+| Shorter Syntax   | Uses `->` instead of `:` and doesn't need `break`. |
+|  Returns a Value | You can assign the result directly to a variable.  |
+|  Supports More Types | Like `enum`, `String`, etc.                        |
+| Supports `yield` | Use `yield` to return a value inside code blocks.  |
 
 ---
 
-## 🧪 Example Using `yield`:
+##  Example Using `yield`:
 
 ```java
 int number = 2;
