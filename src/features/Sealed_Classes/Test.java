@@ -10,5 +10,4 @@ public class Test {
 //     System.out.println("Circle area: "+circle.area());
 //     System.out.println("Rectangle area: "+rectangle.area());
 //     System.out.println("Square area: "+square.area());
-
 }
